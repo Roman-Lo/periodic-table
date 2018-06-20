@@ -1,0 +1,10 @@
+<div class="periodic-table-element" *ngIf="cell.ele" [class.blank]="cell.ele?.blankElement">
+  <div class="col-header" *ngIf="displayHeader && cell.header">
+    {{ cell.header }}
+  </div>
+  <span class="ele-prop atomic-number">{{ cell.ele.atomicNumber }}</span>
+  <span class="ele-prop symbol">{{ cell.ele.symbol }}</span>
+  <span class="ele-prop name">{{ cell.ele.name }}</span>
+  <span class="ele-prop atomic-mass">{{ cell.ele.atomicMass }}</span>
+  <span class="ele-prop electron-config" [innerHTML]="cell.ele.electronicConfigurationAbbrHtml"></span>
+</div>

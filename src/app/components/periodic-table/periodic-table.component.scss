@@ -1,0 +1,32 @@
+
+.periodic-table {
+    position: relative;
+    display: inline-block;
+    margin: 10px auto;
+    margin-top: 50px;
+    padding: 0;
+    .table-titile {
+        font-size: 5em;
+        font-weight: bolder;
+        position: absolute;
+        width: 100%;
+        left: -10%;
+        top: 0px;
+        word-spacing: 4px;
+        letter-spacing: 2px;
+    }
+    .extra-series {
+        display: inline-table;
+        margin: 15px 0;
+        & > tbody > tr > td:first-child {
+            padding-right: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    }
+    .table-copyright {
+        text-align: center;
+        color: #ccc;
+        font-size: 12px;
+    }
+}
