@@ -3,9 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { PeriodicTableComponent } from './components/periodic-table/periodic-table.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PeriodicTableComponent
   ],
   imports: [
     BrowserModule
