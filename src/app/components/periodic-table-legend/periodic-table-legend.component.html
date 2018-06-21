@@ -1,0 +1,8 @@
+<div class="periodic-table-legend">
+  <ul class="legend-list">
+    <li class="legend-list-item" *ngFor="let legend of legends">
+      <span class="color-legend" [attr.data-legend-groupblock]="legend.value"></span>
+      <span>{{ legend.name }}</span>
+    </li>
+  </ul>
+</div>

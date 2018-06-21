@@ -1,4 +1,6 @@
-<div class="periodic-table-element" *ngIf="cell.ele" [class.blank]="cell.ele?.blankElement">
+<div class="periodic-table-element" *ngIf="cell.ele" 
+  [class.blank]="cell.ele?.blankElement"
+  [attr.data-ele-groupblock]="groupBlock">
   <div class="col-header" *ngIf="displayHeader && cell.header">
     {{ cell.header }}
   </div>

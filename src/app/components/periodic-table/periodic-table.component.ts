@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ChangeDetectionStrategy } from '@angular/core';
 import { PeriodicTableElementService } from '../../services/periodic-table-element/periodic-table-element.service';
 import {
   PeriodicTable,
@@ -13,7 +13,8 @@ import {
 @Component({
   selector: 'app-periodic-table',
   templateUrl: './periodic-table.component.html',
-  styleUrls: ['./periodic-table.component.scss']
+  styleUrls: ['./periodic-table.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PeriodicTableComponent implements OnInit {
 

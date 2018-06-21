@@ -1,0 +1,26 @@
+// colors
+$color-alkali-metal: #fb0101;
+$color-alkaline-earth-metal: #fb6501;
+$color-lanthanoid: #fb9701;
+$color-actinoid: #ffae00;
+$color-transition-metal: #efeb1c;
+$color-metal: #10eb3d;
+$color-metalloid: #1ce9ef;
+$color-nonmetal: #2f01fb;
+$color-halogen: #7d06ec;
+$color-noble-gas: #c716f3;
+$color-post-transition-metal: #10e9a8;
+
+$groupblock-colors: (
+    alkali-metal: $color-alkali-metal,
+    alkaline-earth-metal: $color-alkaline-earth-metal,
+    lanthanoid: $color-lanthanoid,
+    actinoid: $color-actinoid,
+    transition-metal: $color-transition-metal,
+    metal: $color-metal,
+    metalloid: $color-metalloid,
+    nonmetal: $color-nonmetal,
+    halogen: $color-halogen,
+    noble-gas: $color-noble-gas,
+    post-transition-metal: $color-post-transition-metal,
+);

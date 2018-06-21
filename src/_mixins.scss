@@ -1,0 +1,21 @@
+
+@mixin groupblock-layout($name) {
+    @at-root {
+        $gb-color: map-get($groupblock-colors, $name);
+        #{&}[data-ele-groupblock="#{$name}"] {
+            text-shadow: $gb-color 1px 0 10px;
+            border-color: rgba($gb-color, 0.8);
+            background: rgba($gb-color, 0.17);
+        }
+    }
+}
+
+@mixin legend-layout($name) {
+    @at-root {
+        $gb-color: map-get($groupblock-colors, $name);
+        #{&}[data-legend-groupblock="#{$name}"] {
+            border-color: rgba($gb-color, 0.8);
+            background: rgba($gb-color, 0.17);
+        }
+    }
+}

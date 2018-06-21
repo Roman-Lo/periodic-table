@@ -1,5 +1,4 @@
 
-
 export class PeriodicTableCell {
     colnum: number;
     header: string;
@@ -20,17 +19,17 @@ export class PeriodicTable {
 }
 
 export enum ElementGroupBlock {
-    Halogen,
-    Metal,
-    TransitionMetal,
-    NobleGas,
-    Metalloid,
-    Lanthanoid,
-    AlkaliMetal,
-    Actinoid,
-    AlkalineEarthMetal,
-    Nonmetal,
-    PostTransitionMetal,
+    AlkaliMetal = 'alkali-metal',
+    AlkalineEarthMetal = 'alkaline-earth-metal',
+    TransitionMetal = 'transition-metal',
+    Metal = 'metal',
+    Metalloid = 'metalloid',
+    Nonmetal = 'nonmetal',
+    Halogen = 'halogen',
+    NobleGas = 'noble-gas',
+    Lanthanoid = 'lanthanoid',
+    Actinoid = 'actinoid',
+    PostTransitionMetal = 'post-transition-metal',
 }
 
 export enum MaterState {

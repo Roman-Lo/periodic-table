@@ -1,0 +1,36 @@
+@import 'src/imports';
+.periodic-table-legend {
+    .legend-list {
+        display: block;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        margin-bottom: 20px;
+        .legend-list-item {
+            display: inline-block;
+            width: 220px;
+            font-size: 1.2em;
+            padding-left: 20px;
+            margin-bottom: 15px;
+            .color-legend {
+                display: inline-block;
+                vertical-align: middle;
+                width: 30px;
+                height: 1.2em;
+                margin-right: 10px;
+                border: 1px solid;
+                @include legend-layout(alkali-metal);
+                @include legend-layout(alkaline-earth-metal);
+                @include legend-layout(lanthanoid);
+                @include legend-layout(actinoid);
+                @include legend-layout(transition-metal);
+                @include legend-layout(metal);
+                @include legend-layout(metalloid);
+                @include legend-layout(nonmetal);
+                @include legend-layout(halogen);
+                @include legend-layout(noble-gas);
+                @include legend-layout(post-transition-metal);
+            }
+        }
+    }
+}
