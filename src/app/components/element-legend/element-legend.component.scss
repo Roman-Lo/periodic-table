@@ -1,0 +1,42 @@
+.element-legend {
+    position: relative;
+
+    .pointer {
+        position: absolute;
+        left: 0px;
+        &::after {
+            // content: ('->');
+        }
+        &.t2b {
+
+        }
+        &.b2t {
+
+        }
+        &.l2r {
+
+        }
+        &.r2l {
+
+        }
+        &[data-pointer-for="atomic-number"] {
+
+        }
+        &[data-pointer-for="symbol"] {
+
+        }
+        &[data-pointer-for="name"] {
+
+        }
+        &[data-pointer-for="atomic-mass"] {
+
+        }
+        &[data-pointer-for="electronic-configr"] {
+
+        }
+    }
+
+    .sample-element {
+
+    }
+}

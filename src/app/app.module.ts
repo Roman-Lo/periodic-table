@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PeriodicTableComponent } from './components/periodic-table/periodic-table.component';
 import { PeriodicTableElementComponent } from './components/periodic-table-element/periodic-table-element.component';
 import { PeriodicTableLegendComponent } from './components/periodic-table-legend/periodic-table-legend.component';
+import { ElementLegendComponent } from './components/element-legend/element-legend.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PeriodicTableComponent,
     PeriodicTableElementComponent,
-    PeriodicTableLegendComponent
+    PeriodicTableLegendComponent,
+    ElementLegendComponent
   ],
   imports: [
     BrowserModule
