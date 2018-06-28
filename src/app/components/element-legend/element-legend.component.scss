@@ -1,42 +1,31 @@
 .element-legend {
     position: relative;
-
-    .pointer {
+    .legend-property-holder {
         position: absolute;
-        left: 0px;
-        &::after {
-            // content: ('->');
-        }
-        &.t2b {
-
-        }
-        &.b2t {
-
-        }
-        &.l2r {
-
-        }
-        &.r2l {
-
-        }
         &[data-pointer-for="atomic-number"] {
-
+            top: -28px;
+            left: -28px;
         }
         &[data-pointer-for="symbol"] {
-
+            top: 30px;
+            right: -25px;
         }
         &[data-pointer-for="name"] {
-
+            top: 62px;
+            right: -25px;
         }
         &[data-pointer-for="atomic-mass"] {
-
+            top: 80px;
+            left: -100px;
         }
-        &[data-pointer-for="electronic-configr"] {
-
+        &[data-pointer-for="electronic-config"] {
+            bottom: 2em;
+            right: -25px;
+            .element-legend-property {
+                text-align: left;
+                white-space: normal;
+            }
         }
     }
-
-    .sample-element {
-
-    }
+    .sample-element {}
 }

@@ -7,6 +7,7 @@ import { PeriodicTableComponent } from './components/periodic-table/periodic-tab
 import { PeriodicTableElementComponent } from './components/periodic-table-element/periodic-table-element.component';
 import { PeriodicTableLegendComponent } from './components/periodic-table-legend/periodic-table-legend.component';
 import { ElementLegendComponent } from './components/element-legend/element-legend.component';
+import { ElementLegendPropertyComponent } from './components/element-legend/element-legend-property.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ElementLegendComponent } from './components/element-legend/element-lege
     PeriodicTableComponent,
     PeriodicTableElementComponent,
     PeriodicTableLegendComponent,
-    ElementLegendComponent
+    ElementLegendComponent,
+    ElementLegendPropertyComponent,
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,72 @@
+.element-legend-property {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 999;
+    .legend-indicator {
+        position: absolute;
+        display: inline-block;
+        &>i {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            position: absolute;
+        }
+        &.arrow-top {
+            width: 0;
+            height: 15px;
+            top: -20px;
+            left: 50%;
+            border-left: 1px solid #fff;
+            &>i {
+                left: -3px;
+                border-top: 2px solid #fff;
+                border-right: 2px solid #fff;
+                transform: rotate(-45deg);
+            }
+        }
+        &.arrow-bottom {
+            width: 0;
+            height: 15px;
+            top: 20px;
+            left: 50%;
+            border-left: 1px solid #fff;
+            &>i {
+                bottom: 0px;
+                left: -3px;
+                border-bottom: 2px solid #fff;
+                border-right: 2px solid #fff;
+                transform: rotate(45deg);
+            }
+        }
+        &.arrow-right {
+            width: 40px;
+            height: 0px;
+            right: -45px;
+            border-top: 1px solid #fff;
+            top: 0.5em;
+            &>i {
+                top: -3px;
+                right: 0px;
+                border-top: 2px solid #fff;
+                border-right: 2px solid #fff;
+                transform: rotate(45deg);
+            }
+        }
+        &.arrow-left {
+            width: 40px;
+            height: 0px;
+            left: -45px;
+            border-top: 1px solid #fff;
+            top: 0.5em;
+            &>i {
+                top: -3px;
+                left: 0px;
+                border-top: 2px solid #fff;
+                border-left: 2px solid #fff;
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}

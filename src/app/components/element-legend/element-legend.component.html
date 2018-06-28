@@ -1,9 +1,9 @@
 <div class="element-legend">
-  <span class="pointer" data-pointer-for="atomic-number">Atomic Number</span>
-  <span class="pointer" data-pointer-for="symbol">Symbol</span>
-  <span class="pointer" data-pointer-for="name">Element Name</span>
-  <span class="pointer" data-pointer-for="atomic-mass">Atomic Mass</span>
-  <span class="pointer" data-pointer-for="electronic-config">Electronic Configuration</span>
+  <app-element-legend-property class="legend-property-holder" data-pointer-for="atomic-number" name="Atomic Number" arrowDirection="bottom"></app-element-legend-property>
+  <app-element-legend-property class="legend-property-holder" data-pointer-for="symbol" name="Symbol" arrowDirection="left"></app-element-legend-property>
+  <app-element-legend-property class="legend-property-holder" data-pointer-for="name" name="Element Name" arrowDirection="left"></app-element-legend-property>
+  <app-element-legend-property class="legend-property-holder" data-pointer-for="atomic-mass" name="Atomic Mass" arrowDirection="right"></app-element-legend-property>
+  <app-element-legend-property class="legend-property-holder" data-pointer-for="electronic-config" name="Electronic Configuration" arrowDirection="left"></app-element-legend-property>  
   <app-periodic-table-element class="sample-element"
     [cell]="elementCell" [displayHeader]="false"></app-periodic-table-element>
 </div>
